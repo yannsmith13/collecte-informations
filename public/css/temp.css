@@ -1,0 +1,153 @@
+:root {
+    --color-gray: #f8f9fa;
+    --color-red: #ed213a;
+    --color-yellow: #fbbb4e;
+    --color-blue: #0064fe;
+
+    --color-white: #fff;
+    --color-black: #000;
+}
+
+body {
+    background-color: var(--color-gray);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.cursor-copy {
+    cursor: copy;
+}
+
+/* FORMULAIRE */
+
+.layout {
+    scroll-behavior: smooth;
+}
+
+.summary {
+    text-transform: uppercase;
+    text-align: center;
+}
+.summary a {
+    margin: 0 0.5rem;
+    font-weight: 600;
+}
+.summary a:nth-child(1) {
+    color: var(--color-red);
+}
+.summary a:nth-child(2) {
+    color: var(--color-black);
+}
+.summary a:nth-child(3) {
+    color: var(--color-yellow);
+}
+.summary a:nth-child(4) {
+    color: var(--color-blue);
+}
+
+.form-big-section {
+    margin-bottom: 5rem;
+}
+
+.form-section {
+    background-color: var(--color-white);
+    /* border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);*/
+    border-radius: 4px; 
+    padding: 1rem;
+    margin-bottom: 2.5rem;
+}
+.big-title {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-red);
+    margin-bottom: 2rem;
+}
+
+.small-title {
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-blue);color: var(--color-blue);
+    margin-bottom: 1.5rem;
+}
+
+.cke-textarea {
+    margin-bottom: 2.5rem;
+}
+
+.form-group label {
+    font-weight: 600;
+}
+
+.text-sm {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 2rem;
+}
+.text-sm-mb-sm {
+    margin-bottom: 0.75rem;
+}
+
+
+/* Images Preview */
+.images-preview {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.images-preview img {
+    padding: 10px;
+    max-width: 100px;
+}
+
+.mb-lg {
+    margin-bottom: 3.5rem;
+}
+
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+
+
+/* ADMIN */
+table {
+    background-color: var(--color-white);
+}
+
+thead {
+    background-color: var(--color-yellow);
+    color: var(--color-black);
+}
+
+svg.svg-table {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.link-to-copy {
+    position: relative;
+}
+.link-to-copy.copied  {
+    
+    background: var(--color-yellow);
+    color: var(--color-white);
+    padding: 8px 8px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.login-form {
+    max-width: 400px;
+    margin: auto;
+}
